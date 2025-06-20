@@ -47,6 +47,8 @@ Panduan ini akan menjelaskan cara mengimplementasikan API Gemini AI menggunakan 
 
     ```json
     {
-      "prompt": "Tuliskan cerita pendek tentang alam"
+      "messages": {
+        "userMessage": "Tuliskan cerita pendek tentang alam"
+      } 
     }
     ```
